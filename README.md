@@ -45,8 +45,8 @@ A system for managing blood donors, blood groups, and donation information.
 ## Contact
 
 * **Email:** [tittuburagoni@gmail.com](mailto:tittuburagoni@gmail.com)
-* **LinkedIn:** Add your LinkedIn profile URL here.
-* **GitHub:** Add your GitHub profile URL here.
+* **LinkedIn:**www.linkedin.com/in/buragoni-tarun-goud
+* **GitHub:** https://github.com/buragoni tarun.
 
 ## How to View
 
