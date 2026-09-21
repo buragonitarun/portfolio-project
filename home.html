@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tarun | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./mystylesheet.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <nav>
+        <div class="logo">Tarun</div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#qualification">Qualification</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-text">
+                Hello, I'm
+            </p>
+
+            <h1>
+                Buragoni Tarun
+            </h1>
+
+            <h2>
+                Python Full Stack Developer
+            </h2>
+
+            <p>
+                I am interested in building web applications
+                and learning Generative AI.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <img src="./portholio.webp"
+                 alt="Tarun Portfolio Image">
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+        <h2 class="section-title">
+            About Me
+        </h2>
+
+        <div class="about-box">
+
+            <p>
+                I am a Python Full Stack developer interested in
+                web development and software development.
+            </p>
+
+            <p>
+                I am currently learning Python, JavaScript,
+                ReactJS, CSS, SQL and Generative AI.
+            </p>
+
+            <p>
+                I enjoy creating useful web applications and
+                improving my programming and problem-solving skills.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section">
+
+        <h2 class="section-title">
+            My Skills
+        </h2>
+
+        <div class="skills-container">
+
+            <div class="skill">Python</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Django</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">Python Libraries</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
+
+        <h2 class="section-title">
+            My Projects
+        </h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <h3>
+                    Smart Hospital Management System
+                </h3>
+
+                <p>
+                    Developed a web-based hospital management
+                    system using Python and Django.
+                </p>
+
+                <p>
+                    The system helps manage patients, doctors,
+                    appointments and hospital records efficiently.
+                </p>
+
+                <p class="technology">
+                    Python | Django | HTML | CSS | JavaScript | SQL
+                </p>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>
+                    Blood Donation Management System
+                </h3>
+
+                <p>
+                    Developed a web-based blood donation management
+                    system to manage donor information and blood groups.
+                </p>
+
+                <p>
+                    The system helps users find suitable blood donors
+                    based on their blood group.
+                </p>
+
+                <p class="technology">
+                    Python | Django | HTML | CSS | SQL
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= QUALIFICATION ================= -->
+
+    <section id="qualification" class="section">
+
+        <h2 class="section-title">
+            Qualification
+        </h2>
+
+        <div class="qualification-container">
+
+            <div class="qualification-card">
+
+                <h3>
+                    B.Tech - ECE
+                </h3>
+
+                <p>
+                    Aurora Technological and Research Institute
+                </p>
+
+                <p>
+                    2023 - 2026
+                </p>
+
+                <strong>
+                    CGPA: 7.0
+                </strong>
+
+            </div>
+
+
+            <div class="qualification-card">
+
+                <h3>
+                    Diploma - ECE
+                </h3>
+
+                <p>
+                    Brilliant Institute of Engineering
+                    and Technology
+                </p>
+
+                <p>
+                    2020 - 2023
+                </p>
+
+                <strong>
+                    CGPA: 7.3
+                </strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section">
+
+        <h2 class="section-title">
+            Contact Me
+        </h2>
+
+        <div class="contact-box">
+
+            <form id="contactForm">
+
+                <label for="name">
+                    Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    maxlength="50"
+                    required
+                >
+
+
+                <label for="phone">
+                    Phone Number
+                </label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter your 10-digit mobile number"
+                    maxlength="10"
+                    required
+                >
+
+
+                <label for="email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+
+            <!-- JavaScript success/error message -->
+
+            <p id="formMessage"></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Buragoni Tarun | My Portfolio
+        </p>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
